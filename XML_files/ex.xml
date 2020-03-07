@@ -1,0 +1,36 @@
+<schema>
+<element type="Start">
+<x>0</x>
+<y>57</y>
+<connections>
+<id>1</id>
+</connections>
+</element>
+<element type="ActionBlock">
+<x>9</x>
+<y>14</y>
+<label>AAAA</label>
+<connections>
+<id>2</id>
+</connections>
+</element>
+<element type="DecisionBlock">
+<x>12</x>
+<y>38</y>
+<label>BBB</label>
+<true>3</true>
+<false>1</false>
+</element>
+<element type="ActionBlock">
+<x>15</x>
+<y>4</y>
+<label>CCCC</label>
+<connections>
+<id>4</id>
+</connections>
+</element>
+<element type="Finish">
+<x>19</x>
+<y>56</y>
+</element>
+</schema>

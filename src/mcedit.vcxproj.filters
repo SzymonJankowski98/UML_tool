@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="UML">
+      <UniqueIdentifier>{0ba4359e-2f8e-4777-b63a-576b3681efb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit">
+      <UniqueIdentifier>{2dc6ea40-eb1d-400c-9e35-3bd9208931fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend">
+      <UniqueIdentifier>{2c8453d6-cfc5-4bca-8d6e-7ae624671993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend\Mode">
+      <UniqueIdentifier>{5e44443d-68d5-4844-a903-035bc720a6da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend\Mode\NormalMode">
+      <UniqueIdentifier>{16681129-668b-41ba-a113-37ae8159aa24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend\Mode\TooSmallMode">
+      <UniqueIdentifier>{3022dc71-40e9-4d9c-8c56-aa3ed58a1489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend\Mode\HelpMode">
+      <UniqueIdentifier>{0c3bf7bb-758b-47a4-aad8-d0c5ab3e0d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend\Mode\AlertMode">
+      <UniqueIdentifier>{4a88c34a-21ca-4f6c-9149-d1932ef4e5db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend\Mode\ParamMode">
+      <UniqueIdentifier>{59ab8678-ecf5-4829-ab44-68f8d61b4522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend\Input">
+      <UniqueIdentifier>{b04a84c3-c5e5-4e2c-8602-ccc3fca6c88f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend\Input\Key">
+      <UniqueIdentifier>{dd6aa1ba-5d8b-4a72-9f07-8473cb50a6c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend\Input\Key\KeyboardKey">
+      <UniqueIdentifier>{6fe67826-a62f-40c1-8584-d262efc47ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend\Input\Key\MouseKey">
+      <UniqueIdentifier>{e27c01a5-ab85-41a2-bad2-075414a4eb32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend\Input\Key\ResizeKey">
+      <UniqueIdentifier>{6a1f665a-2a6e-47e2-a625-088dea18960f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend\Terminal">
+      <UniqueIdentifier>{ad94b439-b63f-4205-ac58-7b97eb7e77ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend\Terminal\Window">
+      <UniqueIdentifier>{02bf6b47-5370-4310-b50a-04f8ced34e75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend\Bind">
+      <UniqueIdentifier>{ba662a95-f41a-41d9-b12c-7166a18a971c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend\Bind\ParsedBind">
+      <UniqueIdentifier>{61a5b57a-651e-431e-91b7-3f9aaa54efee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend\Menu">
+      <UniqueIdentifier>{0696a77b-edb3-448f-b171-c7478b95025e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend\Menu\MenuData">
+      <UniqueIdentifier>{c8fd84c7-cea7-41fa-904e-263a07e6707c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend\Menu\MenuData\Item">
+      <UniqueIdentifier>{6611d699-a869-4b89-b764-fc1c963f91b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend\Menu\MenuData\Item\OptionItem">
+      <UniqueIdentifier>{8a67f5e7-bfe5-424e-931c-722f721268b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend\Menu\MenuData\Item\TopItem">
+      <UniqueIdentifier>{195b7e3a-dfc2-4653-b419-9ca369d0382e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend\Menu\MenuPositioner">
+      <UniqueIdentifier>{4f52046e-b52c-4faf-a660-ea6e2c0cce36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\MceditBackend\Menu\MenuPositioner\ItemPosition">
+      <UniqueIdentifier>{77083122-5653-4378-95c3-5002e0cfbb78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mcedit\Base">
+      <UniqueIdentifier>{cdc85eff-989f-4387-8ae7-a91a543655c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UML\Blocks">
+      <UniqueIdentifier>{48037c9d-aa10-4f23-905c-158e4039e2c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="colors.h">
+      <Filter>Mcedit\MceditBackend</Filter>
+    </ClInclude>
+    <ClInclude Include="margins.h">
+      <Filter>Mcedit\MceditBackend</Filter>
+    </ClInclude>
+    <ClInclude Include="MceditBackend.h">
+      <Filter>Mcedit\MceditBackend</Filter>
+    </ClInclude>
+    <ClInclude Include="Mode.h">
+      <Filter>Mcedit\MceditBackend\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalMode.h">
+      <Filter>Mcedit\MceditBackend\Mode\NormalMode</Filter>
+    </ClInclude>
+    <ClInclude Include="TooSmallMode.h">
+      <Filter>Mcedit\MceditBackend\Mode\TooSmallMode</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpMode.h">
+      <Filter>Mcedit\MceditBackend\Mode\HelpMode</Filter>
+    </ClInclude>
+    <ClInclude Include="AlertMode.h">
+      <Filter>Mcedit\MceditBackend\Mode\AlertMode</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamMode.h">
+      <Filter>Mcedit\MceditBackend\Mode\ParamMode</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Mcedit\MceditBackend\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>Mcedit\MceditBackend\Input\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardKey.h">
+      <Filter>Mcedit\MceditBackend\Input\Key\KeyboardKey</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseKey.h">
+      <Filter>Mcedit\MceditBackend\Input\Key\MouseKey</Filter>
+    </ClInclude>
+    <ClInclude Include="ResizeKey.h">
+      <Filter>Mcedit\MceditBackend\Input\Key\ResizeKey</Filter>
+    </ClInclude>
+    <ClInclude Include="Terminal.h">
+      <Filter>Mcedit\MceditBackend\Terminal</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Mcedit\MceditBackend\Terminal\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Bind.h">
+      <Filter>Mcedit\MceditBackend\Bind</Filter>
+    </ClInclude>
+    <ClInclude Include="ParsedBind.h">
+      <Filter>Mcedit\MceditBackend\Bind\ParsedBind</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Mcedit\MceditBackend\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuData.h">
+      <Filter>Mcedit\MceditBackend\Menu\MenuData</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Mcedit\MceditBackend\Menu\MenuData\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionItem.h">
+      <Filter>Mcedit\MceditBackend\Menu\MenuData\Item\OptionItem</Filter>
+    </ClInclude>
+    <ClInclude Include="TopItem.h">
+      <Filter>Mcedit\MceditBackend\Menu\MenuData\Item\TopItem</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuPositioner.h">
+      <Filter>Mcedit\MceditBackend\Menu\MenuPositioner</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemPosition.h">
+      <Filter>Mcedit\MceditBackend\Menu\MenuPositioner\ItemPosition</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseBackend.h">
+      <Filter>Mcedit\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseTool.h">
+      <Filter>Mcedit\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UMLTool.h">
+      <Filter>UML</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\TinyXML\tinyxml2.h" />
+    <ClInclude Include="block.h">
+      <Filter>UML\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionBlock.h">
+      <Filter>UML\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="FinishBlock.h">
+      <Filter>UML\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="DecisionBlock.h">
+      <Filter>UML\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="StartBlock.h">
+      <Filter>UML\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="UML_Diagram.h">
+      <Filter>UML</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MceditBackend.cpp">
+      <Filter>Mcedit\MceditBackend</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalMode.cpp">
+      <Filter>Mcedit\MceditBackend\Mode\NormalMode</Filter>
+    </ClCompile>
+    <ClCompile Include="TooSmallMode.cpp">
+      <Filter>Mcedit\MceditBackend\Mode\TooSmallMode</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpMode.cpp">
+      <Filter>Mcedit\MceditBackend\Mode\HelpMode</Filter>
+    </ClCompile>
+    <ClCompile Include="AlertMode.cpp">
+      <Filter>Mcedit\MceditBackend\Mode\AlertMode</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamMode.cpp">
+      <Filter>Mcedit\MceditBackend\Mode\ParamMode</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Mcedit\MceditBackend\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardKey.cpp">
+      <Filter>Mcedit\MceditBackend\Input\Key\KeyboardKey</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseKey.cpp">
+      <Filter>Mcedit\MceditBackend\Input\Key\MouseKey</Filter>
+    </ClCompile>
+    <ClCompile Include="ResizeKey.cpp">
+      <Filter>Mcedit\MceditBackend\Input\Key\ResizeKey</Filter>
+    </ClCompile>
+    <ClCompile Include="Terminal.cpp">
+      <Filter>Mcedit\MceditBackend\Terminal</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Mcedit\MceditBackend\Terminal\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Bind.cpp">
+      <Filter>Mcedit\MceditBackend\Bind</Filter>
+    </ClCompile>
+    <ClCompile Include="ParsedBind.cpp">
+      <Filter>Mcedit\MceditBackend\Bind\ParsedBind</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Mcedit\MceditBackend\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuData.cpp">
+      <Filter>Mcedit\MceditBackend\Menu\MenuData</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionItem.cpp">
+      <Filter>Mcedit\MceditBackend\Menu\MenuData\Item\OptionItem</Filter>
+    </ClCompile>
+    <ClCompile Include="TopItem.cpp">
+      <Filter>Mcedit\MceditBackend\Menu\MenuData\Item\TopItem</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuPositioner.cpp">
+      <Filter>Mcedit\MceditBackend\Menu\MenuPositioner</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="UMLTool.cpp">
+      <Filter>UML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TinyXML\tinyxml2.cpp" />
+    <ClCompile Include="block.cpp">
+      <Filter>UML\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionBlock.cpp">
+      <Filter>UML\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="FinishBlock.cpp">
+      <Filter>UML\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="DecisionBlock.cpp">
+      <Filter>UML\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="StartBlock.cpp">
+      <Filter>UML\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="UML_Diagram.cpp">
+      <Filter>UML</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UML.rc" />
+  </ItemGroup>
+</Project>

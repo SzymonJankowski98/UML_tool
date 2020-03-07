@@ -1,0 +1,38 @@
+<schema>
+<element type="Start">
+<x>0</x>
+<y>57</y>
+<connections>
+<id>1</id>
+<id>3</id>
+<id>2</id>
+</connections>
+</element>
+<element type="ActionBlock">
+<x>9</x>
+<y>3</y>
+<label>cccc</label>
+<connections>
+<id>2</id>
+</connections>
+</element>
+<element type="DecisionBlock">
+<x>16</x>
+<y>30</y>
+<label>aaa</label>
+<true>3</true>
+<false>1</false>
+</element>
+<element type="ActionBlock">
+<x>25</x>
+<y>-5</y>
+<label>dddddd</label>
+<connections>
+<id>4</id>
+</connections>
+</element>
+<element type="Finish">
+<x>25</x>
+<y>22</y>
+</element>
+</schema>
